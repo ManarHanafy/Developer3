@@ -1,0 +1,505 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color:black;
+}
+p{
+    line-height: 1.6;
+    color: #748182;
+}
+h3{
+    font-weight: 900;
+    color: var(--color);
+}
+/*navbar*/
+.navbar button{
+    color: var(--color);
+}
+.navbar button span{
+    color: var(--color);
+}
+nav ul li a{
+    color: var(--color) !important;
+    transition: all 0.5s;
+}
+nav ul li:hover a{
+    text-decoration: underline;
+}
+/*end navbar*/
+
+/*home*/
+header{
+    background-image: url(../pictuers/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment:scroll;
+}
+header .overlay{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.content h5{
+    font-size: 54px;
+}
+.content h1{
+    font-size: 54px;
+    position: relative;
+    width: 45%;
+    margin-left: 50px;
+    padding-left: 50px;
+}
+.content h1::after{
+    content: "";
+    position: absolute;
+    animation: type 15s infinite;
+    padding-left: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+@keyframes type {
+    0%{
+        content: " |";
+    }
+    1%{
+        content: " L|";
+    }
+    2%{
+        content: " La|";
+    }
+    3%{
+        content: " Lar|";
+    }
+    4%{
+        content: " Larr|";
+    }
+    5%{
+        content: " Larry|";
+    }
+    6%{
+        content: " Larry |";
+    }
+    7%{
+        content: " Larry D|";
+    }
+    8%{
+        content: " Larry Da|";
+    }
+    9%{
+        content: " Larry Dan|";
+    }
+    10%{
+        content: " Larry Dani|";
+    }
+    11%{
+        content: " Larry Danie|";
+    }
+    12%{
+        content: " Larry Daniel|";
+    }
+    13%,23%{
+        content: " Larry Daniels|";
+    }
+    24%{
+        content: " Larry Daniel|";
+    }
+    25%{
+        content: " Larry Danie|";
+    }
+    26%{
+        content: " Larry Dani|";
+    }
+    27%{
+        content: " Larry Dan|";
+    }
+    28%{
+        content: " Larry Da|";
+    }
+    29%{
+        content: " Larry D|";
+    }
+    30%{
+        content: " Larry |";
+    }
+    31%{
+        content: " Larry |";
+    }
+    32%{
+        content: " Larr|";
+    }
+    33%{
+        content: " Lar|";
+    }
+    34%{
+        content: " La|";
+    }
+    35%{
+        content: " L|";
+    }
+    36%{
+        content: " |";
+    }
+    37%{
+        content: " D|";
+    }
+    38%{
+        content: " De|";
+    }
+    39%{
+        content: " Dev|";
+    }
+    40%{
+        content: " Deve|";
+    }
+    41%{
+        content: " Devel|";
+    }
+    42%{
+        content: " Develo|";
+    }
+    43%{
+        content: " Develop|";
+    }
+    44%{
+        content: " Develope|";
+    }
+    45%,55%{
+        content: " Developer|";
+    }
+    56%{
+        content: " Develope|";
+    }
+    57%{
+        content: " Develop|";
+    }
+    58%{
+        content: " Develo|";
+    }
+    59%{
+        content: " Devel|";
+    }
+    60%{
+        content: " Deve|";
+    }
+    61%{
+        content: " Dev|";
+    }
+    62%{
+        content: " De|";
+    }
+    63%{
+        content: " D|";
+    }
+    64%{
+        content: " |";
+    }
+    65%{
+        content: " D|";
+    }
+    66%{
+        content: " De|";
+    }
+    67%{
+        content: " Des|";
+    }
+    68%{
+        content: " Desi|";
+    }
+    69%{
+        content: " Desig|";
+    }
+    70%{
+        content: " Design|";
+    }
+    71%{
+        content: " Designe|";
+    }
+    72%,82%{
+        content: " Designer|";
+    }
+    83%{
+        content: " Designe|";
+    }
+    84%{
+        content: " Design|";
+    }
+    85%{
+        content: " Desig|";
+    }
+    86%{
+        content: " Desi|";
+    }
+    87%{
+        content: " Des|";
+    }
+    88%{
+        content: " De|";
+    }
+    89%{
+        content: " D|";
+    }
+    90%{
+        content: " |";
+    }
+    91%{
+        content: " |";
+    }
+    92%,100%{
+        content: " |";
+    }
+}
+.content i{
+    background-color:rgba(0, 0, 0, 0.3) ;
+}
+/*end home*/
+
+/*about*/
+.about-img img{
+    width: 92%;
+}
+.about-img::before{
+    content: "";
+    position: absolute;
+    background-image: url(../pictuers/dots.png);
+    background-repeat: repeat;
+    top: 25%;
+    bottom: 0;
+    left: 3.4%;
+    height: 80%;
+    width: 73%;
+}
+.about-p{
+    color: #999999;
+}
+.about-p2{
+    color: #748182;
+}
+.progress{
+    height: 5%;
+}
+.button1{
+    transition: all 0.3s;
+    font-size: 13px !important;
+    padding-inline: 38px !important;
+}
+.button1:hover{
+    color: var(--color) !important;
+    background-color: white !important;
+}
+.button2{
+    transition: all 0.3s;
+    font-size: 13px !important;
+    padding-inline: 38px !important;
+}
+.button2:hover{
+    background-color: var(--color) !important;
+}
+/*end about*/
+
+/*Services*/
+.h3::before{
+    content: "";
+    position: absolute;
+    background-image: url(../pictuers/dots.png);
+    background-repeat: repeat;
+    width: 13%;
+    height: 60%;
+    bottom: 0;
+    top: 52%;
+    left: 43.5%;
+    z-index: 0;
+}
+.card-body i{
+    background-color: #F4F4F4;
+    transition: all 0.3s;
+    padding-inline: 21px;
+    padding-block: 21px;
+}
+.card-body:hover i{
+    background-color: var(--color);
+    color: white;
+}
+.card-body p{
+    word-spacing: 2px;
+    padding-inline: 10px;
+}
+/*end Services*/
+
+/*work*/
+.nav-item button{
+    color: var(--color) !important;
+}
+.nav-item button::after{
+    content: "";
+    position: absolute;
+    border-bottom: 3px solid var(--color);
+    width: 20px;
+    bottom: 3px;
+    right: 30%;
+}
+.layer h6{
+    color: var(--color);
+}
+.layer{
+    background-color: white;
+    width: 95%;
+    height: 95%;
+    margin: 9px;
+    top: 5%;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.layer:hover{
+    top: 0;
+    opacity: 0.9;
+}
+.layer h6{
+    position: absolute;
+    top: 30%;
+    transition: all 0.4s;
+}
+.layer:hover h6{
+    top: 37%;   
+}
+.icon i{
+    padding: 7px;
+    font-size: 12px;
+    border: 1px solid var(--color);
+    background-color: var(--color);
+    transition: all 0.3s;
+}
+.icon:hover i{
+    color: var(--color) !important;
+    background-color: white ;
+}
+/*end work*/
+
+/*Testimonials*/
+.c-h3::before{
+    content: "";
+    position: absolute;
+    background-image: url(../pictuers/dots.png);
+    background-repeat: repeat;
+    width: 17%;
+    height: 60%;
+    bottom: 0;
+    top: 52%;
+    left: 41.5%;
+    z-index: 0;
+}
+.carousel-item img{
+    width: 11%;
+}
+.carousel-item span{
+    font-size: 13px;
+}
+.carousel-item{
+    animation: trans 0.3s 15s;
+}
+@keyframes trans {
+    0%,24%{
+        translate: 0px;
+    }
+    25%,50%{
+        translate: -100%;
+    }
+    51%,76%{
+        translate: 100%;
+    }
+    78%,100%{
+        translate: 0px;
+    }
+}
+.carousel-indicators button{
+    width: 3.5px !important;
+    padding: 3.5px !important;
+    margin-right: 12px !important;
+}
+/*end Testimonials*/
+
+/*Our Team*/
+.layer2{
+    background-color: white;
+    width: 95%;
+    height: 95%;
+    margin: 9px;
+    top: 0%;
+    opacity: 0;
+    transform: rotatey(180deg);
+    transition: all 0.6s;
+}
+.inner2 img{
+    transition: all 0.5s;
+}
+.inner2:hover img{
+    transform: scale(1.2);
+}
+.team-icon i{
+    background-color: var(--color);
+    border-color: var(--color);
+    transition: all 0.3s;
+    padding: 10px;
+}
+.team-icon:hover i{
+    color: var(--color) !important;
+    background-color: white !important;
+}
+.card:hover .layer2{
+    transform:rotateY(360deg);
+    opacity: 0.9;
+}
+/*end Our Team*/
+
+/*Contact*/
+.c2-h3::before{
+    content: "";
+    position: absolute;
+    background-image: url(../pictuers/dots.png);
+    background-repeat: repeat;
+    width: 15%;
+    height: 60%;
+    bottom: 0;
+    top: 52%;
+    left: 42.5%;
+    z-index: 0;
+}
+.item-icon i{
+    padding: 19.5px;
+    transition: all 0.3s;
+}
+.item-icon:hover i{
+    background-color: var(--color) !important;
+    color: white;
+}
+.form{
+    width: 78%;
+}
+.form-input textarea{
+    height: 85%;
+    resize:vertical;
+}
+.button button{
+    padding-inline: 40px;
+    padding-block: 10px;
+    border: 1px solid var(--color) !important;
+    font-size: 14px;
+    transition: all 0.3s;
+}
+.button:hover button{
+    background-color: white !important;
+    color: var(--color);
+}
+/*end Contact*/
+
+/*footer*/
+.footer{
+    background-color: var(--color);
+    opacity: 0.9;
+}
+.footer p{
+    font-size: 13.5px;
+    word-spacing: 2px;
+    padding-top: 5px;
+}
+/*end footer*/

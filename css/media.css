@@ -1,0 +1,120 @@
+@media screen and (max-width:575px){
+    .content h1{
+        font-size: 30px;
+        margin-left: 0;
+        width: 100%;
+    }
+    .about-text{
+        padding-top: 50px;
+    }
+    .about-img img{
+        width: 100%;
+    }
+    .h3::before{
+        width: 23%;
+        left: 39%;
+    }
+    .card-body p{
+        padding-inline: 0px;
+    }
+    .c-h3::before{
+        width: 40%;
+        left: 30%;
+    }
+    .carousel-item img{
+        width: 18%;
+    }
+    .c2-h3::before{
+        width: 37%;
+        left: 32%;
+    }
+    .form{
+        width: 100%;
+    }
+}
+@media screen and (min-width:576px) and (max-width:767px){
+    .content h1{
+        font-size: 35px;
+        width: 70%;
+    }
+    .about-text{
+        padding-top: 50px;
+    }
+    .about-img img{
+        width: 100%;
+    }
+    .h3::before{
+        width: 23%;
+        left: 39%;
+    }
+    .card-body p{
+        padding-inline: 0px;
+    }
+    .c-h3::before{
+        width: 33%;
+        left: 34%;
+    }
+    .carousel-item img{
+        width: 18%;
+    }
+    .c2-h3::before{
+        width: 30%;
+        left: 35%;
+    }
+    .form{
+        width: 100%;
+    }
+}
+@media screen and (min-width:768px) and (max-width:991px){
+    .content h1{
+        font-size: 40px;
+        width: 55%;
+    }
+    .about-text{
+        padding-top: 50px;
+    }
+    .about-img img{
+        width: 100%;
+    }
+    .h3::before{
+        width: 23%;
+        left: 39%;
+    }
+    .card-body p{
+        padding-inline: 0px;
+    }
+    .c-h3::before{
+        width: 28%;
+        left: 36.5%;
+    }
+    .carousel-item img{
+        width: 16%;
+    }
+    .c2-h3::before{
+        width: 26%;
+        left: 37%;
+    }
+    .form{
+        width: 100%;
+    }
+}
+@media screen and (min-width:991px) and ((max-width:1095px)){
+    .content h1{
+        font-size: 45px;
+        width: 55%;
+    }
+    .about-img::before{
+        top: 28%;
+        left: 4.5%;
+    }
+    .carousel-item img{
+        width: 15%;
+    }
+    .c2-h3::before{
+        width: 22%;
+        left: 39%;
+    }
+    .form{
+        width: 100%;
+    }
+}
